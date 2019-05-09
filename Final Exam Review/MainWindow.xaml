@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBlock x:Name="txtHighestIMBDScore" HorizontalAlignment="Left" Margin="130,111,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="291"/>
+        <Label x:Name="lblHighestIMBDScore" Content="Highest IMBD Movie:" HorizontalAlignment="Left" Margin="87,80,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblMoviesAnthonyRussoDirected" Content="# Movies Anthony Russo Directed:" HorizontalAlignment="Left" Margin="87,152,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtAnthonyRusso" HorizontalAlignment="Left" Margin="130,179,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="291"/>
+        <Label Content="# Movies Robert Downey Jr. Actor #1:" HorizontalAlignment="Left" Margin="87,227,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtRobertDowney" HorizontalAlignment="Left" Margin="130,252,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="15" Width="291"/>
+        <Label Content="IMBD Movie Analytics" HorizontalAlignment="Left" Margin="299,27,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Movie Genres:" HorizontalAlignment="Left" Margin="575,80,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstGenres" HorizontalAlignment="Left" Height="101" Margin="504,111,0,0" VerticalAlignment="Top" Width="233"/>
+        <Label Content="Voted Users &gt; 350,000" HorizontalAlignment="Left" Margin="562,241,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="lstVotedUsers" HorizontalAlignment="Left" Height="86" Margin="504,286,0,0" VerticalAlignment="Top" Width="233"/>
+        <Button Content="Start the process" HorizontalAlignment="Left" Margin="299,321,0,0" VerticalAlignment="Top" Width="142" Height="51" Click="Button_Click" FontSize="18"/>
+
     </Grid>
 </Window>
